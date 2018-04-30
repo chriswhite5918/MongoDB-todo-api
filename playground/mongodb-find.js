@@ -49,6 +49,8 @@ MongoClient.connect('mongodb://localhost:27017/TodoApp', (error, db) => {
           console.log('Encountered an error when fetching data from Todos');
         }
       });
+
+    // COUNT
     // #2 fetch the count of sepecific items
     db
       .collection('Todos')
